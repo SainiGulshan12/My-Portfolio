@@ -42,8 +42,8 @@ const Contact = () => {
     }).then((res) => res.json());
   
     if (res.success) {
-      setShow(true);   // ✅ Modal open karne ke liye
-      resetbtn();      // ✅ Form reset karna
+      setShow(true);   
+      resetbtn();      
     }
     else {
       alert("Something went wrong. Please try again."); 

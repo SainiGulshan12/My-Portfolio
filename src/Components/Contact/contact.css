@@ -1,0 +1,175 @@
+.contact{
+    letter-spacing: 0.5px;
+}
+.contact h1{
+    position: relative;
+    font-size: 2.8rem;
+    cursor: default;
+}
+.contact h1::before{
+    position: absolute;
+    content: '';
+    top: 3.2rem;
+    width: 1.9rem;
+    height: 2px;
+    background: var(--voilet-color);
+    transition: 0.8s ease-out;
+}
+.contact h1:hover::before{
+    width: 16.3rem;
+}
+
+.leftPart h2{
+    display: inline-block;
+    font-size: 2.4rem;
+    background: linear-gradient(260deg,var(--orangish-color),var(--voilet-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+.leftPart p{
+    font-size: 18px;
+}
+.leftPart .personal-info span{
+    margin-right: 1.2rem;
+    font-size: 1.6rem;
+}
+.leftPart .social{
+    padding: 1rem 0rem ;
+}
+.leftPart .social .icon{
+    font-size: 1.5rem;
+    padding: .6rem .85rem;
+    border-radius: 50%;
+    margin-left: .5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.leftPart .social .icon:nth-child(1){
+    color: var(--linkdin-color);
+    border: 1px solid var(--linkdin-color);
+}
+.leftPart .social .icon:nth-child(2){
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.leftPart .social .icon:nth-child(3){
+    color: var(--code-color);
+    border: 1px solid var(--code-color);
+    padding: .65rem !important;
+}
+.leftPart .social .icon:nth-child(4){
+    color: var(--mail-color);
+    border: 1px solid var(--mail-color);
+}
+.leftPart .social .icon:nth-child(5){
+    color: var(--what-color);
+    border: 1px solid var(--what-color);
+    padding: 0.65rem .95rem !important;
+}
+.leftPart .social .icon:nth-child(1):hover{
+    background: var(--linkdin-color);
+    color: var(--primary-color);
+}
+.leftPart .social .icon:nth-child(2):hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+.leftPart .social .icon:nth-child(3):hover{
+    background: var(--code-color);
+    color: var(--primary-color);
+}
+.leftPart .social .icon:nth-child(4):hover{
+    background: var(--mail-color);
+    color: var(--primary-color);
+}
+.leftPart .social .icon:nth-child(5):hover{
+    background: var(--what-color);
+    color: var(--primary-color);
+}
+
+.form-label {
+    margin-bottom: 0.3rem !important;
+}
+.rightPart .inputf,
+.rightPart .input,
+.rightPart .textarea{
+    border-radius: .63rem;
+    border: none;
+    padding: .5rem 2rem;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    letter-spacing: 0.5px;
+}
+.rightPart .textarea{
+    padding: 1rem 2rem !important;
+}
+.rightPart .inputf.form-control:focus,
+.rightPart .input.form-control:focus,
+.rightPart .textarea:focus{
+    color: var(--primary-color) ;
+    letter-spacing: 1px;
+    background-color: var(--secondary-color) ;
+    border: 1px solid var(--form-border-color) ;
+    outline: 0;
+    box-shadow: none ;
+}
+.rightPart Button{
+    text-decoration: none;
+    color: var(--secondary-color);
+    background: linear-gradient(45deg,var(--orangish-color),var(--voilet-color),var(--orangish-color));
+    background-size: 200%;
+    background-position: right;
+    border: none;
+    font-size: 18px;
+    padding: .6rem 3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: .8s;
+}
+.rightPart Button:hover{
+    background-position: left;
+    color: var(--primary-color);
+}
+.rightPart .reset{
+    margin-left: 1rem;
+    font-size: 18px;
+    background: linear-gradient(45deg,var(--orangish-color),var(--voilet-color),var(--orangish-color));
+    background-size: 200%;
+    background-position: right;
+    padding: .6rem 2rem;
+    border-radius: 3rem;
+    transition: 0.8s;
+}
+.rightPart .reset:hover{
+    background-position: left;
+    color: var(--primary-color);
+}
+.rightPart Button:active{
+    cursor: progress;
+}
+
+.modal-content {
+    background: linear-gradient(to left, var(--orangish-color), var(--voilet-color));
+    color: var(--primary-color) !important;
+    letter-spacing: .8px;
+}
+.closebtn{
+    margin-left: 1rem;
+    font-size: 18px;
+    background: linear-gradient(45deg,var(--orangish-color),var(--voilet-color),var(--orangish-color));
+    background-size: 200%;
+    background-position: right;
+    border: 1px solid var(--primary-color) !important;
+    padding: .6rem 2rem;
+    border-radius: 3rem;
+}
+.closebtn:hover{
+    transition: 0.8s;
+    background-position: left;
+    color: var(--primary-color);
+}
+.modal-header {
+    border: none !important;
+}

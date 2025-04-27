@@ -1,0 +1,54 @@
+.home .img{
+    width: 280px;
+    height: 280px;
+    margin-top: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.home h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.9rem;
+}
+.home h1 span{
+    position: relative;
+    background: linear-gradient(260deg,var(--orangish-color),var(--voilet-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home p{
+    width: 50%;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 0;
+    line-height: 1.2;
+}
+.btns button{
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    padding: .7rem 2.6rem;
+    cursor: pointer;
+    border-radius: 3.13rem;
+    color: var(--primary-color);
+}
+.btns .contact{
+    border: none;
+    background: linear-gradient(45deg,var(--voilet-color),var(--orangish-color),var(--voilet-color));
+    background-position: right;
+    background-size: 200%;
+    transition: background-position 0.5s ease, color 0.5s ease;
+}
+.btns .contact:hover{
+    background-position: left;
+    border: 1px solid var(--primary-color);
+}
+.btns .resume{
+    border: 1px solid var(--primary-color);
+    background: none;
+    margin: 1rem;
+    transition: .5s;
+}
+.btns .resume:hover{
+    color: var(--orangish-color);
+}
+

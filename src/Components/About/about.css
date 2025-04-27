@@ -1,0 +1,122 @@
+.about{
+    margin: 3rem 4rem 0 2rem;
+    letter-spacing: 1px;
+}
+.about h1{
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(260deg,var(--orangish-color),var(--voilet-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: auto;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    animation: translateinfoh1 1.5s linear;
+}
+.about h1::after{
+    position: absolute;
+    content: '';
+    left: 0rem;
+    top: 2.38rem;
+    width: 1.8rem;
+    height: 3px;
+    background: var(--voilet-color);
+    transition: 0.7s ease-out;
+}
+.about h1:hover::after{
+    width: 12rem;
+}
+.row{
+    flex-wrap: nowrap;
+}
+.content .info{
+    width: 79%;
+    margin-top: 1.25rem;
+    animation: translateinfoh1 1.5s linear;
+}
+.content .info h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .info p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+.content .info .personal-info{
+    margin-top: 1.25rem;
+}
+.content .info .personal-info p{
+    margin-top: 0.5rem;   
+}
+.content .info .personal-info p span{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.content .circle{
+    position: relative;
+    height: 390px;
+    width: 390px;
+    border-radius: 50%;
+    border: 1.5px solid var(--voilet-color);
+    background: radial-gradient(180px, var(--voilet-color), transparent 90%);
+    animation: rotate 10s linear infinite, translatecircle 2s linear;
+}
+.icon1, .icon2, .icon3, .icon4, .icon5 {
+    font-size: 3rem;
+}
+.circle div:nth-child(1){
+    position: absolute;
+    top: 0%;
+    left: 43%;
+    color: var(--htm-color);
+}
+.circle div:nth-child(2){
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: var(--cs-color);
+} 
+.circle div:nth-child(3){
+    position: absolute;
+    top: 33%;
+    right: 3%;
+    color: var(--js-color);
+}
+.circle div:nth-child(4) {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    color: var(--reac-color);
+}
+.circle div:nth-child(5) img{
+    position: absolute;
+    bottom: 9%;
+    left: 65%;
+    width: 18%;
+}
+@keyframes translateinfoh1{
+    0%{
+        transform: translateX(-600px);  
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes translatecircle{
+    0%{
+        transform: translateX(600px) rotate(0deg);
+    }
+    100%{
+        transform: translateX(0px) rotate(360deg);
+    }
+}
+@keyframes rotate {
+    100%{
+      transform: rotate(360deg);
+    }
+}
+

@@ -1,0 +1,85 @@
+@media (max-width:992px){
+    *{
+        overflow: visible;
+    }
+}
+@media (min-width:200px) and (max-width:575px){
+    /* Home Section */
+    .home .img{
+        width: 220px;
+        height: 220px;
+    }
+    .home h1{
+        font-size: 2.3rem;
+        margin-bottom: .5rem;
+    }
+    .home p{
+        width: 90% ;
+        font-size: 1.5rem;
+    }
+    .btns button{
+        font-size: 1rem;
+    }
+    .btns .contact,
+    .btns .resume{
+        padding: .65rem 2.4rem;
+    }
+
+    /* About Section */
+    .about .content{
+        flex-direction: column;
+    }
+    .about h1:hover::after{
+        width: 11rem !important;
+    }
+    .about .content .info{
+        width: 100%;
+    }
+    .about .content .circle{
+        width: 325px;
+        height: 325px;
+        margin: 2rem 0rem;
+        align-self: center;
+    }
+
+    /* Skill Section */
+    .section.skill .languages .icon{
+        width: 150px ;
+        height: 150px ;
+    }
+    .section.skill .experience .item{
+        display: flex;
+        flex-direction: column;
+        width: 26rem;
+        padding: 1.25rem 1rem;
+        margin: 2rem 0rem 1rem 0.5rem;
+    }
+    .experience .item:nth-child(1) .image-wrapper {
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+    .section.skill .experience .item .detail {
+        margin-left: 0rem;
+    }
+
+    /* Project Section */
+    .project{
+        margin-top: 3rem;
+    }
+    .card-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-wrapper .card:nth-child(3) {
+        margin-bottom: 3rem;
+    }
+
+    .rightPart .inputf,
+    .rightPart .input,
+    .rightPart .textarea{
+        width: 420px !important;
+    }
+    #validationCustom01{
+        margin-bottom: 1rem;
+    }
+}

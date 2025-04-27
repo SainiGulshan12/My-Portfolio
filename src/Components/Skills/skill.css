@@ -1,0 +1,106 @@
+.skill{
+    letter-spacing: 1px;
+    align-content: center;
+}
+.languages .icon{
+    width: 165px;
+    height: 165px;
+    margin: 0.8rem;
+    border-radius: .63rem;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(250deg,var(--voilet-color),var(--orangish-color),var(--voilet-color));
+    background-position: right;
+    background-size: 200%;
+    transition: 0.5s ease;
+    cursor: pointer;
+    animation: bounceIn1 2s ease-in-out;
+}
+.languages .icon:hover{
+    background-position: left;
+    transform: scale(1.05);
+}
+.languages .icon p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.experience .item{
+    display: flex;
+    align-items: center;
+    width: 38rem;
+    padding: 1.75rem;
+    margin: 2rem 2rem 1rem;
+    border-radius: .63rem;
+    background: linear-gradient(45deg,var(--voilet-color),var(--orangish-color),var(--voilet-color));
+    background-position: right;
+    background-size: 200%;
+    transition: 0.5s ease;
+    cursor: pointer;
+    animation: bounceIn2 2s ease;
+}
+.experience .item:hover{
+    background-position: left;
+    transform: scale(1.03);
+    border: 1px solid var(--primary-color);
+}
+.experience .item img{
+    border-radius: 1.5rem;
+}
+.experience .item .detail{
+    margin-left: 3.5rem;
+    text-align: center;
+    font-style: italic;
+}
+.experience .item .detail h3{
+    font-size: 21px;
+}
+.experience .item .detail h4{
+    font-style: italic;
+    font-size: 19px;
+}
+.experience .item .detail h3,
+.experience .item .detail h4,
+.experience .item .detail p{
+    margin-bottom: 0;
+}
+.experience .item .detail p{
+    font-size: 18px;
+}
+
+
+
+@keyframes bounceIn1 {
+    0% {
+        transform: translateX(-600px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(80px);
+        opacity: 0.7;
+    }
+    75% {
+        transform: translateX(-80px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes bounceIn2{
+    0%{
+        transform: translateX(600px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-40px);
+        opacity: 0.5;
+    }
+    75%{
+        transform: translateX(50px);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0px);
+    }
+}

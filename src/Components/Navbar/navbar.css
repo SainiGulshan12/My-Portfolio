@@ -1,0 +1,97 @@
+.navbar-brand {
+    font-size: 2.3rem !important;
+    font-family: 'Playwrite AU SA',serif;
+    padding: 0 1.5rem .5rem 0;
+    cursor: text;
+    color: var(--primary-color) !important;
+}
+
+.navbar .nav-links .link{
+    display: inline-block;
+    text-decoration: none !important;
+    padding: .5rem 1.25rem !important;
+    margin: 1.2rem .25rem;
+    font-size: 1.2rem;
+    color: var(--primary-color) !important;
+    letter-spacing: 1.15px;
+    transition: 0.5s;
+}
+.navbar .nav-links .link:hover{
+    transform: translateY(-7px);
+}
+.navbar .nav-links .active{   
+    background: linear-gradient(260deg,var(--orangish-color), var(--voilet-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid var(--voilet-color); 
+}   
+ .contactbtn{
+    position: relative;
+    text-decoration: none ;
+    padding: .7rem 2.7rem !important;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border: none;
+    background: linear-gradient(265deg,#da7c25 .36%, #b923e1 102%);
+    color: var(--primary-color) !important;
+    letter-spacing: 1px;
+    border-radius: 3.13rem !important;
+    cursor: pointer;
+    transition: .5s;
+ }
+.contactbtn:hover{
+    transform: scale(1.05);
+    background: none;
+    border-left: 1px solid #b923e1 !important;
+    border-top: 1px solid #b923e1 !important;
+    border-right: 1px solid #da7c25 !important;
+    border-bottom: 1px solid #da7c25 !important; 
+}
+
+.navbar-toggler {
+    color: var(--primary-color) !important;
+    background: var(--primary-color) !important;
+}
+
+
+.offcanvas {
+    width: 470px !important;
+    background: var(--primary-color) !important;
+}
+.offcanvas-title{
+    font-size: 2.3rem !important;
+    font-family: 'Playwrite AU SA',serif;
+    padding: 0 1.5rem .5rem 0;
+    cursor: text;
+    color: var(--secondary-color) !important;
+} 
+.offcanvas a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none !important;
+    padding: .5rem .25rem !important;
+    margin: .75rem .25rem;
+    font-size: 1.2rem;
+    color: var(--secondary-color) !important;
+    letter-spacing: 1.15px;
+    transition: 0.5s;
+}
+.offcanvas a:hover{
+    transform: translateX(7px);
+}
+.offcanvas a.active{
+    background: linear-gradient(260deg,var(--orangish-color), var(--voilet-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.offcanvas a.active::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--voilet-color);
+    width: 6.5rem;
+    height: 3px;
+}

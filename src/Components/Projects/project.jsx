@@ -2,7 +2,7 @@ import React from 'react';
 import '../MediaCss/media.css';
 import './project.css';
 import restro from '../../assets/Restro.png';
-import cal from '../../assets/calculator.png';
+import blink from '../../assets/blink.png';
 import port from '../../assets/portfolio.png';
 import gym from '../../assets/gym.png';
 import wscube from '../../assets/wscube.png';
@@ -10,7 +10,7 @@ import amazon from '../../assets/amazon.png';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faRightFromBracket} from '@fortawesome/free-solid-svg-icons';
+import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 
 function UncontrolledExample() {
   return (
@@ -23,11 +23,11 @@ function UncontrolledExample() {
               <div className="card">
                 <img src={restro} className="card-img-top" alt="..." />
                 <div className="card-body text-end">
-                    <div className="text-center">
-                      <h5 className="card-title">Food Ordering Website</h5>
-                      <p className="card-text">Crafted with clean code and modern UI — built with ❤️ using ReactJS & pure passion.</p>
-                    </div>
-                    <Link className='btn mt-2' to="https://omgrestro.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon'/></Link>
+                  <div className="text-center">
+                    <h5 className="card-title">Food Ordering Website</h5>
+                    <p className="card-text">Crafted with clean code and modern UI — built with ❤️ using ReactJS & pure passion.</p>
+                  </div>
+                  <Link className='btn mt-2' to="https://omgrestro.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
                 </div>
               </div>
               <div className="card">
@@ -37,17 +37,17 @@ function UncontrolledExample() {
                     <h5 className="card-title">Personal Portfolio</h5>
                     <p className="card-text">Crafted with HTML, CSS, and JavaScript — a portfolio highlighting my journey and skills in Frontend dev.</p>
                   </div>
-                  <Link className='btn mt-2' to="https://res-my-portfolio.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon'/></Link>
+                  <Link className='btn mt-2' to="https://res-my-portfolio.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
                 </div>
               </div>
               <div className="card">
-                <img src={cal} className="card-img-top" alt="..."/>
+                <img src={blink} className="card-img-top" alt="..." />
                 <div className="card-body text-end">
                   <div className="text-center">
-                    <h5 className="card-title">Basic Calculator</h5>
-                    <p className="card-text">A clean calculator crafted with HTML, CSS & JavaScript — simple UI, solid logic.</p>
+                    <h5 className="card-title">Blinkit Clone</h5>
+                    <p className="card-text">A blinkit clone made with a perfect combination of reactjs and bootstrap.</p>
                   </div>
-                  <Link className='btn mt-2' to="https://bas-mem-cal.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon'/></Link>
+                  <Link className='btn mt-2' to="https://blinkit-grocery-app.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
                 </div>
               </div>
             </div>

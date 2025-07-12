@@ -5,7 +5,7 @@ import restro from '../../assets/Restro.png';
 import blink from '../../assets/blink.png';
 import port from '../../assets/portfolio.png';
 import gym from '../../assets/gym.png';
-import wscube from '../../assets/wscube.png';
+import bcci from '../../assets/bcci.png';
 import amazon from '../../assets/amazon.png';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -31,13 +31,13 @@ function UncontrolledExample() {
                 </div>
               </div>
               <div className="card">
-                <img src={port} className="card-img-top" alt="..." />
+                <img src={bcci} className="card-img-top" alt="..." />
                 <div className="card-body text-end">
                   <div className="text-center">
-                    <h5 className="card-title">Personal Portfolio</h5>
-                    <p className="card-text">Crafted with HTML, CSS, and JavaScript — a portfolio highlighting my journey and skills in Frontend dev.</p>
+                    <h5 className="card-title">BCCI Clone</h5>
+                    <p className="card-text">❤️ Cricket ka junoon + Code ka passion = A pixel-perfect BCCI Clone website!</p>
                   </div>
-                  <Link className='btn mt-2' to="https://res-my-portfolio.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
+                  <Link className='btn mt-2' to="https://bcci-tv.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
                 </div>
               </div>
               <div className="card">
@@ -66,13 +66,13 @@ function UncontrolledExample() {
                 </div>
               </div>
               <div className="card">
-                <img src={wscube} className="card-img-top" alt="..." />
+                <img src={port} className="card-img-top" alt="..." />
                 <div className="card-body text-end">
                   <div className="text-center">
-                    <h5 className="card-title">Landing Page</h5>
-                    <p className="card-text">Crafted with Bootstrap — a landing page WScube Tech digital marketing courses and career opportunities.</p>
+                    <h5 className="card-title">Personal Portfolio</h5>
+                    <p className="card-text">Crafted with HTML, CSS, and JavaScript — a portfolio highlighting my journey and skills in Frontend dev.</p>
                   </div>
-                  <Link className='btn mt-2' to="https://relaxed-sable-1d53db.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
+                  <Link className='btn mt-2' to="https://res-my-portfolio.netlify.app/" target='_blank'>Visit<FontAwesomeIcon icon={faRightFromBracket} className='icon' /></Link>
                 </div>
               </div>
               <div className="card">

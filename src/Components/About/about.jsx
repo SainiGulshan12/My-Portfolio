@@ -19,7 +19,7 @@ const About = () => {
             <div className="personal-info">
               <h3>Personal information </h3>
               <p><span>Email</span> : gulshansaini0125@gmail.com</p>
-              <p><span>Age</span> : 19</p>
+              <p><span>Age</span> : 18+</p>
               <p><span>Contact no</span> : +91 7014957196</p>
               <p><span>City </span>: Kotputli-Bahror</p>
             </div>

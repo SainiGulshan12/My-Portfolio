@@ -33,7 +33,7 @@ const Home = () => {
         <p>I am a dedicated frontend developer with skills in HTML, CSS, JavaScript, ReactJS. I'm a Fresher.</p>
         <div className="btns">
           <Link to='/contact'><button className='contact'>Contact With Me</button></Link>
-          <a href='https://drive.google.com/file/d/1AdX5oYvxE5KXMJkWmF5rK-wyvqUSdrGm/preview' target='blank' ><button className='resume' rel="noopener noreferrer">My Resume</button></a>
+          <a href='https://drive.google.com/file/d/1xX9KZ0JE6WRUKCAmtPm_Rb3Ox-rjCKQy/preview' target='blank' ><button className='resume' rel="noopener noreferrer">My Resume</button></a>
         </div>
       </Col>
     </Row>

@@ -5,7 +5,7 @@ const projects = [
     title: "BCCI Clone",
     description:
       "A modern cricket board website clone with responsive sections, match highlights, and clean UI components.",
-    tech: ["React", "JavaScript", "Bootstrap"],
+    tech: ["React", "Bootstrap"],
     category: "React",
     image: "/assets/bcci.png",
     live: "https://bcci-tv.netlify.app/",
@@ -15,7 +15,7 @@ const projects = [
     title: "Hotel & Restaurant Website",
     description:
       "Elegant hospitality website with hero booking CTA, menu showcases, and immersive gallery layout.",
-    tech: ["React", "Bootstrap", "JavaScript"],
+    tech: ["React", "Bootstrap"],
     category: "React",
     image: "/assets/Restro.png",
     live: "https://omg-restro.netlify.app/",
@@ -25,7 +25,7 @@ const projects = [
     title: "Blinkit Clone",
     description:
       "Grocery delivery UI clone with category grid, offers, and fast checkout experience.",
-    tech: ["React", "JavaScript", "Bootstrap"],
+    tech: ["React", "Bootstrap"],
     category: "React",
     image: "/assets/blink.png",
     live: "https://blinkit-grocery-app.netlify.app/",

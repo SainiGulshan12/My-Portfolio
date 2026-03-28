@@ -1617,3 +1617,8 @@ main {
     font-size: 1.5rem;
   }
 }
+@media (max-width: 360px) {
+      .skills-tabs {
+        font-size: 0.7rem;
+      }
+}

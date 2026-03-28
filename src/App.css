@@ -1588,9 +1588,11 @@ main {
     font-size: 0.95rem;
   }
   .hero-actions {
-    margin-top: 1rem;
+    margin: 1rem 0 5.5rem 0;
   }
-
+  .hero-socials {
+    display: none;
+  }
   .section-title {
     font-size: 1.9rem;
   }
@@ -1625,6 +1627,15 @@ main {
   .projects-tab {
     font-size: 0.61rem !important;
     padding: 0.4rem 1rem;
+  }
+  .timeline-card {
+    padding: 1.4rem 1rem;
+  }
+  .timeline-header h3 {
+    font-size: 0.9rem;
+  }
+  .timeline-year {
+    font-size: 0.6rem;
   }
   .contact-card,
   .contact-form {

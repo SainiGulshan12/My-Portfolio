@@ -1626,4 +1626,19 @@ main {
     font-size: 0.61rem !important;
     padding: 0.4rem 1rem;
   }
+  .contact-card,
+  .contact-form {
+    padding: 2rem 1rem;
+  }
+  .contact-qr {
+    width: auto;
+    justify-content: center;
+    margin: -4rem 0 0 0rem;
+  }
+  .contact-qr img {
+    width: 80px;
+  }
+  .contact-qr p {
+    font-size: 0.8rem;
+  }
 }

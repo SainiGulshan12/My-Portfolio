@@ -1600,8 +1600,6 @@ main {
   }
   .skills-tabs {
     gap: 0rem;
-    padding: 0.4rem 0.4rem;
-    font-size: 0.8rem;
   }
   .skills-group-title {
     margin: 0 0 1rem 3rem;
@@ -1618,7 +1616,14 @@ main {
   }
 }
 @media (max-width: 360px) {
-      .skills-tabs {
-        font-size: 0.7rem;
-      }
+  .skills-tabs {
+    padding: 0;
+  }
+  .skills-tab {
+    font-size: 0.63rem;
+  }
+  .projects-tab {
+    font-size: 0.61rem !important;
+    padding: 0.4rem 1rem;
+  }
 }
